@@ -1,0 +1,31 @@
+h1, h2 {
+    text-align: center;
+}
+h2 {
+    color: teal;
+    font-weight: bold;
+    background-color: white;
+}
+table {
+    border: 2px solid green;
+    border-spacing: 2px;
+    color: rebeccapurple;
+    background-color: seashell;
+    margin: auto;
+    width: 650px;
+    border-collapse: collapse;
+}
+th {
+    border: 2px solid;
+    background-color: violet;
+    font-weight: bold;
+}
+
+td { 
+    border: 1px solid blue;
+    font-weight: bold;
+}
+body {
+    background-color: rgb(110, 153, 179);
+    font-family: monospace;
+}
