@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheetsheet</title>
+    <link href="resources\css\styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>HTML Elements Reference</h1>
+    <h2>Element Tags</h2>
+    <div class="elements">
+        <table>
+            <thead>
+               <tr>
+                   <th>Tag</th>
+                   <th>Name</th>
+                   <th>Description</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>Table Head</td>
+                    <td>The &lt;head&gt; element contains general information about an HTML page that isn’t displayed on the page itself. This information is called metadata and includes things like the title of the HTML document and links to stylesheets.</td>
+                </tr>
+                <tr>
+                    <td>&lt;body&gt;</td>
+                    <td>Table Body</td>
+                    <td>The &lt;Body&gt; element represents the content of an HTML document. Content inside &lt;Body&gt; tags are rendered on the web browsers.</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt;-&lt;h6&gt;</td>
+                    <td>Heading Elements</td>
+                    <td>HTML can use six different levels of heading elements. The heading elements are ordered from the highest level &lt;H1&gt; to the lowest level &lt;H6&gt;.</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>Div</td>
+                    <td>The &lt;Div&gt; element is used as a container that divides an HTML document into sections and is short for “division”. &lt;Div&gt; elements can contain flow content such as headings, paragraphs, links, images, etc.</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Paragraph</td>
+                    <td>The &lt;P&gt; paragraph element contains and displays a block of text.</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;</td>
+                    <td>Span</td>
+                    <td>The &lt;Span&gt; element is an inline container for text and can be used to group text for styling purposes. However, as &lt;Span&gt; is a generic container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic element is available.</td>
+                </tr>
+                <tr>
+                    <td>&lt;em&gt;</td>
+                    <td>Emphasis</td>
+                    <td>The &lt;em&gt; emphasis element emphasizes text and browsers will usually italicize the emphasized text by default.</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong&gt;</td>
+                    <td>Strong</td>
+                    <td>The &lt;Strong&gt; element highlights important, serious, or urgent text and browsers will normally render this highlighted text in bold by default.</td>
+                </tr>
+                <tr>
+                    <td>&lt;img&gt;</td>
+                    <td>Image</td>
+                    <td>The &lt;img&gt; elements embed images in documents. The src attribute contains the image URL and is mandatory. &lt;img&gt; is an empty element meaning it should not have a closing tag.</td>
+                </tr>
+                <tr>
+                    <td>&lt;video&gt;</td>
+                    <td>Video</td>
+                    <td>The &lt;video&gt; element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player.</td>
+                </tr>
+                <tr>
+                    <td>&lt;a&gt;</td>
+                    <td>Anchor</td>
+                    <td>The &lt;a&gt; anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL via the hyperlink reference attribute, href. The href determines the location the anchor element points to.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="attributes">
+        <h2>HTML Attributes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>N/A</td>
+                    <td>HTML Attributes</td>
+                    <td>HTML attributes are values added to the opening tag of an element to configure the element or change the element’s default behavior. In the provided example, we are giving the &lt;p&gt; (paragraph) element a unique identifier using the id attribute and changing the color of the default text using the style attribute.</td>
+                </tr>
+                <tr>
+                    <td>N/A</td>
+                    <td>Name And Values</td>
+                    <td>HTML attributes consist of a name and a value using the following syntax: name="value" and can be added to the opening tag of an HTML element to configure or change the behavior of the element.</td>
+                </tr>
+                <tr>
+                    <td>Alt</td>
+                    <td>Alt Attribute</td>
+                    <td>An &lt;img&gt; element can have alternative text via the alt attribute. The alternative text will be displayed if an image fails to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked from being displayed, or if the image has not been received from the URL. The text will be read aloud if screen reading software is used and helps support visually impaired users by providing a text descriptor for the image content on a webpage.</td>
+                </tr>
+                <tr>
+                    <td>Video Attributes</td>
+                    <td>Controls/Src</td>
+                    <td>The &lt;video&gt; element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player.</td>
+                </tr>
+                <tr>
+                    <td>Target</td>
+                    <td>Target Attribute</td>
+                    <td>The target attribute on an &lt;a&gt; anchor element specifies where a hyperlink should be opened. A target value of "_blank" will tell the browser to open the hyperlink in a new tab in modern browsers, or in a new window in older browsers or if the browser has had settings changed to open hyperlinks in a new window.</td>
+                </tr>
+                <tr>
+                    <td>Same Page</td>
+                    <td>Link to Page</td>
+                    <td>The anchor element &lt;a&gt; can create hyperlinks to different parts of the same HTML document using the href attribute to point to the desired location with # followed by the id of the element to link to.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
